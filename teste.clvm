@@ -1,0 +1,9 @@
+(mod (arg_one)
+  ; function definitions
+  (defun factorial (input)
+    (if (= input 1) 1 (* (factorial (- input 1)) input))
+  )
+
+  ; main
+  (factorial arg_one)
+)
